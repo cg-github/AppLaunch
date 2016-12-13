@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subapps">
+        <item>热门电影</item>
+        <item>股票雄鹰</item>
+        <item>XYZ阅读器</item>
+        <item>最新闻</item>
+        <item>毕业设计</item>
+    </string-array>
+</resources>

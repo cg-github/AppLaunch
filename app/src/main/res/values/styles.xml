@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SelectedButton"  parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@color/colorUdacityButton</item>
+        <item name="android:textColor">@color/colorUdacityButtonText</item>
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:width">@dimen/button_width</item>
+    </style>
+</resources>

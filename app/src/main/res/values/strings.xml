@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">我的应用作品集</string>
+    <string name="app_movie">热门电影</string>
+    <string name="app_finance">股票雄鹰</string>
+    <string name="app_reader">XYZ阅读器</string>
+    <string name="app_news">最新闻</string>
+    <string name="app_graduation">毕业设计</string>
+    <string name="title_string">纳米学位应用</string>
+</resources>
