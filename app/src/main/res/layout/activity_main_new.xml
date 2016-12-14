@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:id="@+id/btn_movie"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                style="@style/SelectedButton"
+                android:text="@string/app_movie"
+                />
+
+            <TextView
+                android:text="@string/title_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:textSize="@dimen/button_font_size"
+                android:id="@+id/tv_title" />
+
+            <Button
+                android:text="@string/app_finance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_movie"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:id="@+id/btn_finance"
+                style="@style/SelectedButton" />
+
+            <Button
+                android:text="@string/app_reader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_reader"
+                android:layout_marginTop="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                style="@style/SelectedButton" />
+
+            <Button
+                android:text="@string/app_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="290dp"
+                android:id="@+id/btn_news"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                style="@style/SelectedButton" />
+
+            <Button
+                android:text="@string/app_graduation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_graduation"
+                style="@style/SelectedButton"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="370dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

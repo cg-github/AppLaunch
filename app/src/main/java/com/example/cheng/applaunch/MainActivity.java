@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_new);
         MyOnClickListener myOnClickListener = new MyOnClickListener();
         btn = (Button) findViewById(R.id.btn_movie);
         btn.setOnClickListener(myOnClickListener);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View view) {
-            switch (view.getId()){
+/*            switch (view.getId()){
                 case R.id.btn_movie:
                     Toast.makeText(getApplicationContext(),"最新电影",Toast.LENGTH_LONG).show();
                     break;
@@ -49,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 default:
                     break;
-            }
+            }*/
+            Button btn = (Button) view;
+            Toast.makeText(getApplicationContext(),"启动应用："+btn.getText().toString(),Toast.LENGTH_SHORT).show();
         }
     }
 }
